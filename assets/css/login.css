@@ -1,0 +1,65 @@
+body {
+	background: url("/Ajax/big-event/assets/images/login_bg.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#logo {
+	background: url(../images/logo.png) no-repeat;
+	height: 100px;
+	width: 150px;
+	margin-left: 10%;
+
+	/* display: none; */
+}
+
+/* #home{
+	position: relative;
+} */
+.login {
+	display: block;
+	position: relative;
+}
+.home-login {
+	height: 300px;
+	width: 500px;
+	border: 1px solid #007DDB;
+	margin: 10% auto;
+	background-color: #fff;
+	text-align: center;
+	padding: 0 40px;
+}
+
+.home-login i {
+	display: block;
+	position: absolute;
+	left: 10px;
+	line-height: 38px;
+}
+
+.home-login-title {
+	height: 50px;
+	background: url(../images/login_title.png) no-repeat center;
+	width: 100%;
+}
+
+.layui-input {
+	width: 100%;
+	margin: 10px 0;
+	padding: 0 40px;
+	overflow: hidden;
+}
+
+.layui-btn-normal {
+	display: block;
+	width: 100%;
+}
+
+.home-login a {
+	float: right;
+	line-height: 38px;
+}
+
+.register {
+	display: none;
+	position: relative;
+}
